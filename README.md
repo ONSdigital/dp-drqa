@@ -7,7 +7,7 @@ Uses a Sanic async http server to serve requests.
 
 ### Licence
 
-DrQA is released under BSD license, see [LICENSE](DrQA/LICENSE) for details.
+DrQA is released under BSD license, see [LICENSE](LICENSE_DrQA) for details.
 
 Copyright ©‎ 2016, Office for National Statistics (https://www.ons.gov.uk)
 
