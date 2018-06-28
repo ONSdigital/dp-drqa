@@ -15,8 +15,8 @@ def initialise(cuda: bool = False) -> DrQA:
     :param cuda:
     :return:
     """
-    from DrQA.drqa.retriever.ons_doc_ranker import OnsDocRanker
-    from DrQA.drqa.retriever.doc_search import OnsSearchDB
+    from core.drqa.retreiever.doc_search import OnsSearchDB
+    from core.drqa.retreiever.ons_doc_ranker import OnsDocRanker
 
     logger.info('Initializing pipeline...')
     model = DrQA(
